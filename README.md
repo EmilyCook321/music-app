@@ -1,4 +1,5 @@
 # music-app
-Music app built with Javascript
+Basic music app built with Javascript.
 
-All sounds from zapsplat.com
+All sounds from zapsplat.com.
+

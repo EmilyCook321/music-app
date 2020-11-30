@@ -24,27 +24,49 @@ header p {
 }
 
 .pads {
-  background: lightblue;
+  border-collapse: separate;
+  border-spacing: 5px;
+  border-spacing: 1vw;
+  border-spacing: 2em;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
 }
 
 .pads > div {
   height: 100px;
   width: 100px;
-  flex: 1;
+  border-radius: 50px;
+  padding: 10px;
+ 
 }
 
 .pad1 {
-  background: #60d394;
+  background: #330066;
 }
 
 .pad2 {
-  background: #a0a0a0;
+  background: #5900b3;
 }
 
 .pad3 {
-  background: #c060d3;
+  background: #8000ff;
+}
+.pad4 {
+  background: #9933ff;
+}
+
+.pad5 {
+  background: #b366ff;
+}
+
+.pad6 {
+  background: #cc99ff;
+}
+.pad7 {
+  background: #e6ccff;
 }
 
 .visual > div {
